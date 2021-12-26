@@ -230,27 +230,19 @@
         }
       },
       {
-        "code": 0,
+        "code": 41,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "Esc"
+        }
       },
       {
-        "code": 0,
+        "code": 226,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "base": "Alt"
         },
+        "location": "left",
         "categories": [
-          "blanks"
+          "modifier"
         ]
       },
       {
@@ -1314,15 +1306,16 @@
         ]
       },
       {
-        "code": 0,
+        "code": 17456,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": "ShiftTo",
+          "base": "#6"
         },
+        "target": 6,
+        "rangeStart": 17450,
         "categories": [
-          "blanks"
+          "layer",
+          "shifttolayer"
         ]
       },
       {
@@ -2037,15 +2030,13 @@
         "baseCode": 44
       },
       {
-        "code": 0,
+        "code": 225,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "base": "Shift"
         },
+        "location": "left",
         "categories": [
-          "blanks"
+          "modifier"
         ]
       },
       {
@@ -3147,11 +3138,395 @@
     ],
     [
       {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 58,
+        "label": {
+          "base": "F1"
+        }
+      },
+      {
+        "code": 59,
+        "label": {
+          "base": "F2"
+        }
+      },
+      {
+        "code": 60,
+        "label": {
+          "base": "F3"
+        }
+      },
+      {
         "code": 65535,
         "label": {
           "base": {
             "full": "Transparent",
             "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 61,
+        "label": {
+          "base": "F4"
+        }
+      },
+      {
+        "code": 62,
+        "label": {
+          "base": "F5"
+        }
+      },
+      {
+        "code": 63,
+        "label": {
+          "base": "F6"
+        }
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 64,
+        "label": {
+          "base": "F7"
+        }
+      },
+      {
+        "code": 65,
+        "label": {
+          "base": "F8"
+        }
+      },
+      {
+        "code": 66,
+        "label": {
+          "base": "F9"
+        }
+      },
+      {
+        "code": 67,
+        "label": {
+          "base": "F10"
+        }
+      },
+      {
+        "code": 65535,
+        "label": {
+          "base": {
+            "full": "Transparent",
+            "1u": " "
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
+      },
+      {
+        "code": 0,
+        "label": {
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
           }
         },
         "categories": [
@@ -3183,16 +3558,16 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 68,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
+          "base": "F11"
+        }
+      },
+      {
+        "code": 69,
+        "label": {
+          "base": "F12"
+        }
       },
       {
         "code": 65535,
@@ -3219,11 +3594,11 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 0,
         "label": {
           "base": {
-            "full": "Transparent",
-            "1u": " "
+            "full": "Blocked",
+            "1u": "Blkd"
           }
         },
         "categories": [
@@ -3243,11 +3618,11 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 0,
         "label": {
           "base": {
-            "full": "Transparent",
-            "1u": " "
+            "full": "Blocked",
+            "1u": "Blkd"
           }
         },
         "categories": [
@@ -3255,467 +3630,11 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 0,
         "label": {
           "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
-        },
-        "categories": [
-          "blanks"
-        ]
-      },
-      {
-        "code": 65535,
-        "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
+            "full": "Blocked",
+            "1u": "Blkd"
           }
         },
         "categories": [
