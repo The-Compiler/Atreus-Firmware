@@ -286,16 +286,13 @@
         ]
       },
       {
-        "code": 0,
+        "code": 70,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Print Screen",
+            "1u": "PrSc"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
         "code": 0,
@@ -1028,32 +1025,39 @@
         ]
       },
       {
-        "code": 11,
+        "code": 0,
         "label": {
-          "base": "h",
-          "shifted": "H"
-        }
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
       },
       {
-        "code": 13,
+        "code": 0,
         "label": {
-          "base": "j",
-          "shifted": "J"
-        }
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
+        },
+        "categories": [
+          "blanks"
+        ]
       },
       {
-        "code": 14,
+        "code": 24580,
         "label": {
-          "base": "k",
-          "shifted": "K"
-        }
-      },
-      {
-        "code": 15,
-        "label": {
-          "base": "l",
-          "shifted": "L"
-        }
+          "hint": "Macro",
+          "base": "#4"
+        },
+        "rangeStart": 24576,
+        "categories": [
+          "macros"
+        ]
       },
       {
         "code": 0,
@@ -1077,6 +1081,17 @@
         },
         "categories": [
           "blanks"
+        ]
+      },
+      {
+        "code": 24578,
+        "label": {
+          "hint": "Macro",
+          "base": "#2"
+        },
+        "rangeStart": 24576,
+        "categories": [
+          "macros"
         ]
       },
       {
@@ -1132,51 +1147,42 @@
         ]
       },
       {
-        "code": 80,
+        "code": 11,
         "label": {
-          "base": {
-            "full": "Left Arrow",
-            "1u": "←"
-          }
+          "base": "h",
+          "shifted": "H"
         }
       },
       {
-        "code": 81,
+        "code": 13,
         "label": {
-          "base": {
-            "full": "Down Arrow",
-            "1u": "↓"
-          }
+          "base": "j",
+          "shifted": "J"
         }
       },
       {
-        "code": 82,
+        "code": 14,
         "label": {
-          "base": {
-            "full": "Up Arrow",
-            "1u": "↑"
-          }
+          "base": "k",
+          "shifted": "K"
         }
       },
       {
-        "code": 79,
+        "code": 15,
         "label": {
-          "base": {
-            "full": "Right Arrow",
-            "1u": "→"
-          }
+          "base": "l",
+          "shifted": "L"
         }
       },
       {
-        "code": 0,
+        "code": 24579,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": "Macro",
+          "base": "#3"
         },
+        "rangeStart": 24576,
         "categories": [
-          "blanks"
+          "macros"
         ]
       },
       {
@@ -1281,16 +1287,15 @@
         ]
       },
       {
-        "code": 17492,
+        "code": 0,
         "label": {
-          "hint": "MoveTo",
-          "base": "#0"
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
         },
-        "target": 0,
-        "rangeStart": 17492,
         "categories": [
-          "layer",
-          "movetolayer"
+          "blanks"
         ]
       },
       {
@@ -1415,16 +1420,15 @@
         ]
       },
       {
-        "code": 17413,
+        "code": 0,
         "label": {
-          "hint": "LockTo",
-          "base": "#5"
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
         },
-        "target": 5,
-        "rangeStart": 17408,
         "categories": [
-          "layer",
-          "locktolayer"
+          "blanks"
         ]
       }
     ],
@@ -3138,15 +3142,16 @@
     ],
     [
       {
-        "code": 0,
+        "code": 17492,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": "MoveTo",
+          "base": "#0"
         },
+        "target": 0,
+        "rangeStart": 17492,
         "categories": [
-          "blanks"
+          "layer",
+          "movetolayer"
         ]
       },
       {
@@ -3264,15 +3269,16 @@
         ]
       },
       {
-        "code": 0,
+        "code": 17413,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": "LockTo",
+          "base": "#5"
         },
+        "target": 5,
+        "rangeStart": 17408,
         "categories": [
-          "blanks"
+          "layer",
+          "locktolayer"
         ]
       },
       {
@@ -3330,52 +3336,40 @@
         ]
       },
       {
-        "code": 0,
+        "code": 80,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Left Arrow",
+            "1u": "←"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
-        "code": 0,
+        "code": 81,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Down Arrow",
+            "1u": "↓"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
-        "code": 0,
+        "code": 82,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Up Arrow",
+            "1u": "↑"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
-        "code": 0,
+        "code": 79,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Right Arrow",
+            "1u": "→"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
         "code": 0,
