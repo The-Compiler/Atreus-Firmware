@@ -1703,19 +1703,19 @@
         "baseCode": 11
       },
       {
-        "code": 4107,
+        "code": 4109,
         "label": {
           "hint": {
             "full": "Super+",
             "1u": "Su+"
           },
-          "base": "h"
+          "base": "j"
         },
         "categories": [
           "with-modifiers",
           "gui"
         ],
-        "baseCode": 11
+        "baseCode": 13
       },
       {
         "code": 4110,
@@ -2670,11 +2670,11 @@
         ]
       },
       {
-        "code": 0,
+        "code": 65535,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Transparent",
+            "1u": " "
           }
         },
         "categories": [
