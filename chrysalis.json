@@ -300,17 +300,16 @@
         ]
       },
       {
-        "code": 52283,
-        "baseCode": 41,
+        "code": 17454,
         "label": {
-          "hint": "Layer #4/",
-          "base": "Esc"
+          "hint": "ShiftTo",
+          "base": "#4"
         },
         "target": 4,
-        "rangeStart": 51218,
+        "rangeStart": 17450,
         "categories": [
           "layer",
-          "dualuse"
+          "shifttolayer"
         ]
       },
       {
