@@ -38,7 +38,10 @@
 
 enum {
   MACRO_QWERTY,
-  MACRO_VERSION_INFO
+  MACRO_VERSION_INFO,
+  MACRO_AUML,
+  MACRO_OUML,
+  MACRO_UUML,
 };
 
 #define Key_Exclamation LSHIFT(Key_1)
@@ -113,6 +116,29 @@ KALEIDOSCOPE_INIT_PLUGINS(
   MouseKeys
 );
 
+/** Macro to type umlauts using compose key. */
+static void umlautMacro(KeyEvent &event, Key base) {
+  if (!keyToggledOn(event.state)) {
+    return;
+  }
+
+  Macros.tap(Key_PcApplication);
+
+  auto keyboard = kaleidoscope::Runtime.hid().keyboard();
+  if (
+    keyboard.isModifierKeyActive(Key_LeftShift) ||
+    keyboard.isModifierKeyActive(Key_RightShift)
+  ) {
+    Macros.tap(Key_Quote);
+    Macros.tap(base);
+  } else {
+    Macros.press(Key_LeftShift);
+    Macros.tap(Key_Quote);
+    Macros.release(Key_LeftShift);
+    Macros.tap(base);
+  }
+}
+
 const macro_t *macroAction(uint8_t macro_id, KeyEvent &event) {
   if (keyToggledOn(event.state)) {
     switch (macro_id) {
@@ -123,10 +149,24 @@ const macro_t *macroAction(uint8_t macro_id, KeyEvent &event) {
       // the macro in EEPROM, it will keep working after a firmware update.
       Layer.move(QWERTY);
       break;
+
     case MACRO_VERSION_INFO:
       Macros.type(PSTR("Keyboardio Atreus - Kaleidoscope "));
       Macros.type(PSTR(BUILD_INFORMATION));
       break;
+
+    case MACRO_AUML:
+      umlautMacro(event, Key_A);
+      break;
+
+    case MACRO_OUML:
+      umlautMacro(event, Key_O);
+      break;
+
+    case MACRO_UUML:
+      umlautMacro(event, Key_U);
+      break;
+
     default:
       break;
     }
