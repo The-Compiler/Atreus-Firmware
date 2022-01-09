@@ -1923,27 +1923,29 @@
         ]
       },
       {
-        "code": 0,
+        "code": 20545,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": {
+            "full": "Mouse Button",
+            "1u": "M.Btn"
+          },
+          "base": "Left"
         },
         "categories": [
-          "blanks"
+          "mousekeys"
         ]
       },
       {
-        "code": 0,
+        "code": 20546,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": {
+            "full": "Mouse Button",
+            "1u": "M.Btn"
+          },
+          "base": "Right"
         },
         "categories": [
-          "blanks"
+          "mousekeys"
         ]
       },
       {
