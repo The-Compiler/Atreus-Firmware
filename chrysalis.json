@@ -230,20 +230,16 @@
         }
       },
       {
-        "code": 41,
+        "code": 43,
         "label": {
-          "base": "Esc"
+          "base": "Tab"
         }
       },
       {
-        "code": 226,
+        "code": 40,
         "label": {
-          "base": "Alt"
-        },
-        "location": "left",
-        "categories": [
-          "modifier"
-        ]
+          "base": "Enter"
+        }
       },
       {
         "code": 14,
@@ -340,11 +336,11 @@
         }
       },
       {
-        "code": 49212,
-        "baseCode": 43,
+        "code": 49210,
+        "baseCode": 41,
         "label": {
           "hint": "Control/",
-          "base": "Tab"
+          "base": "Esc"
         },
         "modifier": "Control",
         "rangeStart": 49169,
@@ -355,18 +351,13 @@
         ]
       },
       {
-        "code": 49209,
-        "baseCode": 40,
+        "code": 226,
         "label": {
-          "hint": "Control/",
-          "base": "Enter"
+          "base": "Alt"
         },
-        "modifier": "Control",
-        "rangeStart": 49169,
+        "location": "left",
         "categories": [
-          "modifier",
-          "dualuse",
-          "ctrl"
+          "modifier"
         ]
       },
       {
