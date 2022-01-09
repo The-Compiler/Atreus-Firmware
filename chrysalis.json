@@ -270,16 +270,13 @@
         }
       },
       {
-        "code": 0,
+        "code": 75,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Page Up",
+            "1u": "PgUp"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
         "code": 70,
@@ -405,16 +402,13 @@
         ]
       },
       {
-        "code": 0,
+        "code": 78,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Page Down",
+            "1u": "PgDn"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       }
     ],
     [
@@ -806,11 +800,11 @@
         "baseCode": 53
       },
       {
-        "code": 0,
+        "code": 65535,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Transparent",
+            "1u": " "
           }
         },
         "categories": [
@@ -952,15 +946,14 @@
     ],
     [
       {
-        "code": 0,
+        "code": 24577,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": "Macro",
+          "base": "#1"
         },
+        "rangeStart": 24576,
         "categories": [
-          "blanks"
+          "macros"
         ]
       },
       {
@@ -1266,28 +1259,31 @@
         }
       },
       {
-        "code": 0,
+        "code": 76,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Delete",
+            "1u": "Del"
           }
-        },
-        "categories": [
-          "blanks"
-        ]
+        }
       },
       {
-        "code": 0,
+        "code": 2121,
         "label": {
+          "hint": {
+            "full": "Shift+",
+            "1u": "S+"
+          },
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Insert",
+            "1u": "Ins"
           }
         },
         "categories": [
-          "blanks"
-        ]
+          "with-modifiers",
+          "shift"
+        ],
+        "baseCode": 73
       },
       {
         "code": 0,
@@ -2315,28 +2311,34 @@
         ]
       },
       {
-        "code": 0,
+        "code": 4139,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": {
+            "full": "Super+",
+            "1u": "Su+"
+          },
+          "base": "Tab"
         },
         "categories": [
-          "blanks"
-        ]
+          "with-modifiers",
+          "gui"
+        ],
+        "baseCode": 43
       },
       {
-        "code": 0,
+        "code": 4136,
         "label": {
-          "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
-          }
+          "hint": {
+            "full": "Super+",
+            "1u": "Su+"
+          },
+          "base": "Enter"
         },
         "categories": [
-          "blanks"
-        ]
+          "with-modifiers",
+          "gui"
+        ],
+        "baseCode": 40
       },
       {
         "code": 0,
@@ -2476,34 +2478,28 @@
         "baseCode": 42
       },
       {
-        "code": 4139,
+        "code": 0,
         "label": {
-          "hint": {
-            "full": "Super+",
-            "1u": "Su+"
-          },
-          "base": "Tab"
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
         },
         "categories": [
-          "with-modifiers",
-          "gui"
-        ],
-        "baseCode": 43
+          "blanks"
+        ]
       },
       {
-        "code": 4136,
+        "code": 0,
         "label": {
-          "hint": {
-            "full": "Super+",
-            "1u": "Su+"
-          },
-          "base": "Enter"
+          "base": {
+            "full": "Blocked",
+            "1u": "Blkd"
+          }
         },
         "categories": [
-          "with-modifiers",
-          "gui"
-        ],
-        "baseCode": 40
+          "blanks"
+        ]
       },
       {
         "code": 4140,
