@@ -137,7 +137,7 @@ const macro_t *macroAction(uint8_t macro_id, KeyEvent &event) {
 void setup() {
   Kaleidoscope.setup();
   SpaceCadet.disable();
-  EEPROMKeymap.setup(10);
+  EEPROMKeymap.setup(6);
 }
 
 void loop() {
