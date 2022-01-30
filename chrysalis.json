@@ -2530,13 +2530,16 @@
         ]
       },
       {
-        "code": 229,
+        "code": 17453,
         "label": {
-          "base": "Shift"
+          "hint": "ShiftTo",
+          "base": "#3"
         },
-        "location": "right",
+        "target": 3,
+        "rangeStart": 17450,
         "categories": [
-          "modifier"
+          "layer",
+          "shifttolayer"
         ]
       },
       {
