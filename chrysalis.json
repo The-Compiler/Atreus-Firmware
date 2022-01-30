@@ -3172,15 +3172,13 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 229,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
+          "base": "Shift"
         },
+        "location": "right",
         "categories": [
-          "blanks"
+          "modifier"
         ]
       },
       {
