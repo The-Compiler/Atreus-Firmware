@@ -2447,15 +2447,13 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 225,
         "label": {
-          "base": {
-            "full": "Transparent",
-            "1u": " "
-          }
+          "base": "Shift"
         },
+        "location": "left",
         "categories": [
-          "blanks"
+          "modifier"
         ]
       },
       {
@@ -2516,26 +2514,29 @@
         "baseCode": 44
       },
       {
-        "code": 225,
+        "code": 49166,
         "label": {
-          "base": "Shift"
-        },
-        "location": "left",
-        "categories": [
-          "modifier"
-        ]
-      },
-      {
-        "code": 17455,
-        "label": {
-          "hint": "ShiftTo",
+          "hint": {
+            "full": "OneShot",
+            "1u": "OSL"
+          },
           "base": "#5"
         },
         "target": 5,
-        "rangeStart": 17450,
+        "rangeStart": 49161,
         "categories": [
           "layer",
-          "shifttolayer"
+          "oneshot"
+        ]
+      },
+      {
+        "code": 229,
+        "label": {
+          "base": "Shift"
+        },
+        "location": "right",
+        "categories": [
+          "modifier"
         ]
       },
       {
@@ -3096,11 +3097,11 @@
         ]
       },
       {
-        "code": 0,
+        "code": 65535,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Transparent",
+            "1u": " "
           }
         },
         "categories": [
