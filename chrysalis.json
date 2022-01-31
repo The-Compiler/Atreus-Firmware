@@ -3160,25 +3160,25 @@
         ]
       },
       {
-        "code": 65535,
+        "code": 225,
+        "label": {
+          "base": "Shift"
+        },
+        "location": "left",
+        "categories": [
+          "modifier"
+        ]
+      },
+      {
+        "code": 0,
         "label": {
           "base": {
-            "full": "Transparent",
-            "1u": " "
+            "full": "Blocked",
+            "1u": "Blkd"
           }
         },
         "categories": [
           "blanks"
-        ]
-      },
-      {
-        "code": 229,
-        "label": {
-          "base": "Shift"
-        },
-        "location": "right",
-        "categories": [
-          "modifier"
         ]
       },
       {
