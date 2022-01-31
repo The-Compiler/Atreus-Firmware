@@ -2475,15 +2475,16 @@
         "baseCode": 42
       },
       {
-        "code": 0,
+        "code": 224,
         "label": {
           "base": {
-            "full": "Blocked",
-            "1u": "Blkd"
+            "full": "Control",
+            "1u": "Ctrl"
           }
         },
+        "location": "left",
         "categories": [
-          "blanks"
+          "modifier"
         ]
       },
       {
